@@ -13,7 +13,7 @@ class ISB_Conversor_Medidas_Widget extends WP_Widget
 	 */
 	public function __construct() {
 		$widget_ops = array('classname' => 'isb_conversor_medidas_widget', 'description' => 'Conversor de medidas de peso, distância, volume e temperatura',);
-		parent::__construct('isb_conversor_medidas_widget', 'isb_conversor_medidas', $widget_ops);
+		parent::__construct('isb_conversor_medidas_widget', 'Conversor de Medidas', $widget_ops);
 	}
 
 	/**
